@@ -2,7 +2,7 @@
 <a href="https://www.datibenecomune.it/"><img src="https://img.shields.io/badge/%F0%9F%99%8F-%23datiBeneComune-%23cc3232"/></a> 
 
 
-Generatore di widget come esempio di riutilizzo di OpenData per il monitoraggio delle vaccinazioni, a partire dai dati del progetto 
+Generatore di widget (prototipo) per il monitoraggio delle vaccinazioni a partire dagli opendata prodotti nel progetto 
 [Covid Open Report Sicilia](https://github.com/opendatasicilia/covid-open-report-sicilia).
 
 
@@ -23,4 +23,4 @@ composer install
 * [API QuickChart.IO](https://quickchart.io/)
 
 ### Licenza
-<a href="https://creativecommons.org/licenses/by/4.0/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/CC-BY_icon.svg/640px-CC-BY_icon.svg.png" width="150"/></a>
+<a href="https://opensource.org/licenses/MIT">MIT License</a>
