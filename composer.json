@@ -1,0 +1,19 @@
+{
+    "name": "giovanni/open-covid-chart",
+    "autoload": {
+        "psr-4": {
+            "Giovanni\\OpenCovidChart\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Giovanni Pirrotta",
+            "email": "giovanni.pirrotta@gmail.com"
+        }
+    ],
+    "require": {
+        "ianw/quickchart": "^1.1",
+        "symfony/http-foundation": "^5.4",
+        "symfony/http-client": "^5.4"
+    }
+}
