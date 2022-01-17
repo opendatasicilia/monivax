@@ -25,7 +25,7 @@ $statusCode = $response->getStatusCode();
 if ($statusCode == 200) {
     $content = $response->toArray()[0];
     $comune = $content['comune'];
-    $vaccinati = $content['%vaccinati'];
+    $vaccinati = $content['seconda_dose'];
     $dataPieces = explode("-", $content['data']);
     $data = $dataPieces[2]."/".$dataPieces[1]."/".$dataPieces[0];
     
@@ -54,7 +54,7 @@ $config = <<<START
             subText:'$data',
         },
         title: {
-            text: 'Totale Vaccinati $comune',
+            text: 'Vaccinati 2° Dose $comune',
             display: true,
             fontSize: $sizeTitle,
         },
